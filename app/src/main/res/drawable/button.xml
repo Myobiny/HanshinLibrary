@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/frontent_book" />
+    <item android:drawable="@drawable/ai_book" />
+    <item android:drawable="@drawable/bigdata_book" />
+    <item android:drawable="@drawable/fullstack_book" />
+    <item android:drawable="@drawable/cloud_book" />
+    <item android:drawable="@drawable/backend_book" />
+    <item android:drawable="@drawable/iot_book" />
+    <item android:drawable="@drawable/shool_map" />
+</selector>
