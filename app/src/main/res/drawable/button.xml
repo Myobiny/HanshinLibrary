@@ -7,5 +7,4 @@
     <item android:drawable="@drawable/cloud_book" />
     <item android:drawable="@drawable/backend_book" />
     <item android:drawable="@drawable/iot_book" />
-    <item android:drawable="@drawable/shool_map" />
 </selector>

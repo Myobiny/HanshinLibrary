@@ -13,33 +13,8 @@
         android:theme="@style/Theme.HanshinLibrary"
         tools:targetApi="31">
         <activity
-            android:name=".schoolMap"
-            android:exported="false" />
-        <activity
-            android:name=".IOTBookList"
-            android:exported="false" />
-        <activity
-            android:name=".cloudBookList"
-            android:exported="false" />
-        <activity
-            android:name=".fullstackBookList"
-            android:exported="false" />
-        <activity
-            android:name=".aiBookList"
-            android:exported="false" />
-        <activity
-            android:name=".backendBookList"
-            android:exported="false" />
-        <activity
-            android:name=".bigDataBookList"
-            android:exported="false" />
-        <activity
-            android:name=".frontendBookList"
-            android:exported="false"
-            android:label="@string/title_activity_frontend_book_list" />
-        <activity
             android:name=".HomeActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".loginActivity"
             android:exported="true">

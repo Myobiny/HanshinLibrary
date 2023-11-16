@@ -8,17 +8,17 @@
 
     <ImageButton
         android:id="@+id/fullstackButton"
-        android:layout_width="127dp"
-        android:layout_height="157dp"
+        android:layout_width="131dp"
+        android:layout_height="159dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
+        android:contentDescription="Fullstack Book Button"
         android:padding="0dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toStartOf="@+id/cloudButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frontendButton"
-        app:srcCompat="@drawable/fullstack_book"
-        android:contentDescription="Fullstack Book Button"/>
+        app:srcCompat="@drawable/fullstack_book" />
 
     <ImageButton
         android:id="@+id/bigDataButton"
@@ -76,58 +76,44 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="cloudBook Button"
         android:padding="0dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toEndOf="@+id/fullstackButton"
         app:layout_constraintTop_toBottomOf="@+id/aiButton"
-        app:srcCompat="@drawable/cloud_book"
-        android:contentDescription="cloudBook Button"/>
+        app:srcCompat="@drawable/cloud_book" />
 
     <ImageButton
         android:id="@+id/IOTButton"
-        android:layout_width="116dp"
-        android:layout_height="141dp"
+        android:layout_width="126dp"
+        android:layout_height="136dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="250dp"
+        android:contentDescription="IOTBook Button"
         android:padding="0dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fullstackButton"
-        app:srcCompat="@drawable/iot_book"
-        android:contentDescription="IOTBook Button"/>
+        app:srcCompat="@drawable/iot_book" />
 
     <ImageButton
         android:id="@+id/backendButton"
-        android:layout_width="108dp"
+        android:layout_width="126dp"
         android:layout_height="143dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
+        android:contentDescription="backendBook Button"
         android:padding="0dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.57"
         app:layout_constraintStart_toEndOf="@+id/IOTButton"
         app:layout_constraintTop_toBottomOf="@+id/cloudButton"
-        app:srcCompat="@drawable/backend_book"
-        android:contentDescription="backendBook Button"/>
-
-    <ImageButton
-        android:id="@+id/schoolMapButton"
-        android:layout_width="109dp"
-        android:layout_height="143dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
-        android:padding="0dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/backendButton"
-        app:layout_constraintTop_toBottomOf="@+id/cloudButton"
-        app:srcCompat="@drawable/school_map"
-        android:contentDescription="schoolMap Button"/>
+        app:srcCompat="@drawable/backend_book" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,12 +15,22 @@ public class HomeActivity extends AppCompatActivity {
     private ImageButton IOTButton;
     private ImageButton cloudButton;
     private ImageButton aiButton;
-    private ImageButton schoolMapButton;
+
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        //각버튼에 대한 초기화
+        fullstackButton = findViewById(R.id.fullstackButton);
+        backendButton = findViewById(R.id.backendButton);
+        frontendButton = findViewById(R.id.frontendButton);
+        IOTButton = findViewById(R.id.IOTButton);
+        cloudButton = findViewById(R.id.cloudButton);
+        aiButton = findViewById(R.id.aiButton);
+
     }
 }
